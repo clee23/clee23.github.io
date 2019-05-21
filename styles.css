@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	/*background-image: programming/images/picture;*/
+	font-weight: 100;
+	font-family: "Helvetica Neue";
+	margin: 50px;
+	color:black;	
+}
+
+h1 {
+	font-size: 45px;
+	font-weight: 200;
+	color: black;
+}
+
+h2 {
+	font-size: 25px;
+	font-weight: 200;
+}
+
+h3 {
+	font-size: 15px;
+}
+
+.content-wrap {
+	max-width: 70%;
+	max-height: auto;
+	margin: 0 auto;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding: 0 20px;
+	overflow: hidden;
+	border: 0px solid black;
+}
+
+.col-narrow {
+	width: 30%;
+	float: left;
+	border-right: 0px solid black;
+	min-height: 50px;
+
+}
+	
+.col-wide {
+	width: 70%;
+	float: left;
+	min-height: 50px;
+	padding: 0 10px;
+}
+
+.banner {
+	text-align: center;
+	background-color: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.logo {
+	width: 170px;
+	margin-top: 320px;
+}
+
+.logo:hover {
+	transform: scale(3);
+}
+
+
+
